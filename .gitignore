@@ -1,0 +1,13 @@
+# Build artifacts
+/neuroflow
+/neuroflow.exe
+/neuroflow-linux
+*.test
+coverage.out
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
