@@ -1,0 +1,36 @@
+# ==============================================================================
+# NeuroFlow - Configuration YAML (Neuro-Inclusive & Productivité Pro)
+# ==============================================================================
+
+# Emplacements des données (100% Système de fichiers & Markdown)
+kanban_dir: "./kanban_workspace"
+habits_dir: "./habits_workspace"
+
+# Paramètres du cycle Pomodoro (en minutes)
+work_duration_minutes: 25        # Durée de focus classique
+soft_launch_minutes: 5           # Rampe dopaminergique (amorce douce anti-inertie)
+short_break_minutes: 5           # Pause courte
+long_break_minutes: 15           # Pause longue régénératrice
+long_break_interval: 4           # Nombre de sessions avant pause longue
+
+# Stimulation auditive (Optimal Stimulation Theory - Sikström & Zentall)
+youtube_music_url: "https://music.youtube.com/watch?v=jfKfPfyJRdk" # Lo-Fi Focus / Synthwave
+auto_launch_music: false         # Lancer automatiquement avec le focus (ou manuel avec 'm')
+sound_bell: true                 # Signal sonore doux de transition (terminal bell)
+theme: "tokyo-night"             # Thème visuel apaisant et contrasté
+
+# Assistant d'Aide IA (GitHub Copilot CLI & Découpage atomique de tâche)
+ai_assistant:
+  enabled: true                  # Activer l'assistant d'aide
+  provider: "copilot"            # "copilot" (CLI GitHub Copilot) ou "builtin" (heuristique TDAH)
+  copilot_bin: "copilot"         # Binaire copilot (détecté automatiquement)
+  role_prompt: >
+    Tu es un coach expert en TDAH et en productivité bienveillante.
+    Tu aides à décomposer les tâches professionnelles intimidantes en micro-étapes
+    atomiques ridicules, sans culpabilité ni jargon superflu.
+
+# Rituels d'organisation et de protection de la vie professionnelle
+work_life:
+  daily_wins_goal: 3             # Règle des 3 victoires d'impact par jour (kickoff matinal)
+  shutdown_time: "18:00"         # Heure de fermeture pro (Shutdown ritual) pour préserver la vie perso
+  inbox_limit_min: 15            # Limite de temps pour le tri des emails/Slack

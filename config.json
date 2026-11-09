@@ -1,0 +1,12 @@
+{
+  "kanban_dir": "./kanban_workspace",
+  "work_duration_minutes": 25,
+  "soft_launch_minutes": 5,
+  "short_break_minutes": 5,
+  "long_break_minutes": 15,
+  "long_break_interval": 4,
+  "youtube_music_url": "https://music.youtube.com/watch?v=jfKfPfyJRdk",
+  "auto_launch_music": false,
+  "sound_bell": true,
+  "theme": "tokyo-night"
+}
